@@ -1,0 +1,10 @@
+'''write a program to calculate emi
+    where emi=si+principle_amount/no of months
+    where si=p*t*r/100'''
+p=int(input())
+r=int(input())
+t=int(inpu(t))
+n=int(input())
+si=p*t*r/100
+emi=si+p/n
+print(emi)
